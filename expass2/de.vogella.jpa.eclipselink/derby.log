@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Sep 09 18:36:05 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0174-73b9-68b3-00000e911c00 
+on database directory C:\Users\Jarek\Desktop\Szkola\MAMN-PROG\DAT250\database\relationsshipDb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44 
+Loaded from file:/C:/Users/Jarek/eclipse-workspace/de.vogella.jpa.eclipselink/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=14.0.2+12-46
+user.dir=C:\Users\Jarek\eclipse-workspace\de.vogella.jpa.eclipselink
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
