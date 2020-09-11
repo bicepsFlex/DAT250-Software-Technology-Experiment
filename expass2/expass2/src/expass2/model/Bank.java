@@ -17,7 +17,11 @@ public class Bank {
 	private String name;
 	
 	@OneToMany
-	private List<CreditCard> creditCards = new ArrayList<CreditCard>();
+	private List<CreditCard> creditCards;
+	
+	public Bank() {
+		creditCards = new ArrayList<CreditCard>();
+	}
 	
 	public int getId() {
 		return id;

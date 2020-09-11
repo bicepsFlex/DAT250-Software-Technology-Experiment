@@ -18,7 +18,11 @@ public class Address {
 	private int number;
 	
 	@ManyToMany(mappedBy = "addresses")
-	private List<Person> people = new ArrayList<Person>();
+	private List<Person> people;
+	
+	public Address() {
+		people = new ArrayList<Person>();
+	}
 	
 	public int getId() {
 		return id;

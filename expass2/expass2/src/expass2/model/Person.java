@@ -18,9 +18,14 @@ public class Person {
 	private String name;
 	
 	@ManyToMany
-	private List<Address> addresses = new ArrayList<Address>();
+	private List<Address> addresses;
 	@OneToMany
-	private List<CreditCard> creditCards = new ArrayList<CreditCard>();
+	private List<CreditCard> creditCards;
+	
+	public Person() {
+		addresses = new ArrayList<Address>();
+		creditCards = new ArrayList<CreditCard>();
+	}
 	
 	public int getId() {
 		return id;

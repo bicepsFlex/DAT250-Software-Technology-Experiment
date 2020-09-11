@@ -50,6 +50,8 @@ public class Main {
         Pincode pc = new Pincode();
         pc.setPincode("1234");
         pc.setCount(3);
+        cc.setPincode(pc);
+        em.persist(cc);
         em.persist(pc);
         
         Bank b = new Bank();
