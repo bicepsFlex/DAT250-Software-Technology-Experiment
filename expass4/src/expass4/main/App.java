@@ -16,6 +16,7 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import expass4.model.Todo;
 
@@ -44,8 +45,8 @@ public class App {
             EntityManager em = factory.createEntityManager();
             Query q = em.createQuery("select t from Todo t");
             List<Todo> todos = q.getResultList();
-        	Gson gson = new Gson();
-        	String todosString = gson.toJson(todos);
+        	Gson json = new GsonBuilder().setPrettyPrinting().create();
+        	String todosString = json.toJson(todos);
             return todosString;
         });
                
