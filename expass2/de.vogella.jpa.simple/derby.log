@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Wed Sep 09 19:03:16 CEST 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0174-73d2-4baa-00000f12bf28 
+Wed Sep 23 16:42:40 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0174-bb6a-9ad7-00000f127308 
 on database directory C:\Users\Jarek\Desktop\Szkola\MAMN-PROG\DAT250\database\simpleDb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44 
-Loaded from file:/C:/Users/Jarek/eclipse-workspace/de.vogella.jpa.simple/lib/derby.jar
+Loaded from file:/C:/Users/Jarek/git/DAT250-Software-Technology-Experiment/expass2/de.vogella.jpa.simple/lib/derby.jar
 java.vendor=Oracle Corporation
 java.runtime.version=14.0.2+12-46
-user.dir=C:\Users\Jarek\eclipse-workspace\de.vogella.jpa.simple
+user.dir=C:\Users\Jarek\git\DAT250-Software-Technology-Experiment\expass2\de.vogella.jpa.simple
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0
